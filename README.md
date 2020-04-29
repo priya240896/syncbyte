@@ -1,4 +1,4 @@
-# syncbyte: A Guide to Start the application.
+# SyncByte: A Guide to Start the application.
 
 ## Clone The Git Project 
 
@@ -10,12 +10,12 @@ On the terminal run the command git clone https://github.com/priya240896/syncbyt
 
       1) mvn install package
 
--Inside the angular-syncbyte folder run the command-
+* Inside the angular-syncbyte folder run the command-
 
     1)npm install
 
     2)ng serve --open
 
--The application will be up and running.
+* The application will be up and running.
 
--Access the application using localhost:4200
+* Access the application using localhost:4200
