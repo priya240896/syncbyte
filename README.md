@@ -12,9 +12,9 @@ On the terminal run the command git clone https://github.com/priya240896/syncbyt
 
 * Inside the angular-syncbyte folder run the command-
 
-    1)npm install
+      1) npm install
 
-    2)ng serve --open
+      2) ng serve --open
 
 * The application will be up and running.
 
