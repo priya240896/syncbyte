@@ -1,0 +1,36 @@
+﻿<div class="container p-5 my-5 bg-dark text-white border">
+    <h1>Registration</h1>
+    <form #registerForm="ngForm" >
+      <div class="form-group">
+        <label for="employeecode">Employee Code</label>
+        <input type="text" [(ngModel)]="newEmployee.employeecode" class="form-control" id="employeecode" 
+        name="employeecode" #employeeCode="ngModel">
+      </div>
+     
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" [(ngModel)]="newEmployee.name" class="form-control" id="name" required
+        name="name" #name="ngModel">
+      </div>
+
+       <div class="form-group">
+        <label for="dob">Date Of Birth</label>
+        <input type="date" [(ngModel)]="newEmployee.dob" class="form-control" id="dob" 
+        name="dob" #dob="ngModel">
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="text" [(ngModel)]="newEmployee.password" class="form-control" id="password" 
+        name="password" #password="ngModel">
+      </div>
+      <div>
+        <button   name="fingerprint" (click)="setFingerPrint()"
+         class="btn btn-success" >Fingerprint</button>
+    </div>
+    <br>
+      
+      <button type="submit" class="btn btn-primary" (click)="onSubmit()">Submit</button>
+
+    </form>
+</div>
