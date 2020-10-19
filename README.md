@@ -2,7 +2,7 @@
 
 ## Clone The Git Project 
 
-On the terminal run the command git clone https://github.com/priya240896/syncbyte.git.
+On the terminal run the command git clone https://github.com/priya240896/Registration.git.
 
 ### Create the target folder for the backend service
 
