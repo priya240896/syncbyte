@@ -1,4 +1,4 @@
-# SyncByte: A Guide to Start the application.
+# Registration: A Guide to Start the application.
 
 ## Clone The Git Project 
 
